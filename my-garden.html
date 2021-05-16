@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Fabulous Garden</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/stayle.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Fabulous Garden</h1>
+    </header>
+    <main>
+        <section class="formSection">
+
+            
+            <form id="flowerForm">
+                <fieldset>
+                    <legend>New flower</legend>
+
+                    <div><br>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" class="input"><br>
+                    </div><br>
+                    <div>
+                        <label for="category">Image</label><br>
+                        <select id="category" class="inputSelect">
+                            <option value="Alstroemerias">Alstroemerias</option>
+                            <option value="Gardenias">Gardenias</option>
+                            <option value="Orchids">Orchids</option>
+                            <option value="Roses">Roses</option>
+                            <option value="Sunflowers">Sunflowers</option>
+                            <option value="Tulips">Tulips</option>
+                            <option value="Peonies">Peonies</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label for="season">season</label><br>
+                        <input type="text" id="season" class="input"><br>
+                    </div>
+                    <div><br>
+                        <button type="submit"> save </button>
+                    </div>
+
+            </form>
+            </fieldset>
+        </section>
+        <section class="tableSection">
+            <div id="tableDiv"></div>
+        </section>
+
+    </main>
+    <footer>
+        <p>All right resreved 2021 &copy ACSK</p>
+    </footer>
+    <script src="./my-garden.js"></script>
+</body>
+
+</html>

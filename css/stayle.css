@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    margin: 85%;
+    margin: auto;
+    height: 100vh ;
+    display: grid;
+    grid-template-rows: 75px 1fr 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    
+    background-color: #1ebbd7;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 6mm;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+table, td {
+    text-align: center;
+    height: 36px;
+    width: 80px;
+   
+}
+
+table, tr{
+    border: 1px solid whitesmoke;
+}
+img{
+    height: 30px;
+    height: 41px;
+    margin-top: 17px;
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  table tr:nth-child(even){
+  background-color: #189ad3;
+  }
+  table tr:nth-child(odd){
+    background-color: #107dac;
+    }
+  footer{
+    background-color: #1ebbd7;
+  }
+
+  footer p {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 4mm;
+  }
+
+  .formSection{
+      width: 50%;
+      margin: auto;
+      margin-right: 0px;
+  }
+
+  .tableSection{
+    width: 50%;
+    margin: auto;
+    margin-left: 0px;
+    height: 230;
+    overflow: auto;
+  }
+
+  .input{
+      width: 100%;
+      height: 20px;
+  }
+
+  .inputSelect{
+    width: 103%;
+    height: 29px;
+  }
+
+  button{
+      background-color: #71c7ec;
+      color:whitesmoke ;
+  }
